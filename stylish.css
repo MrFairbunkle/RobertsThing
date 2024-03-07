@@ -2,7 +2,14 @@
 *{
     margin: 0px;
     box-sizing: border-box;
+    text-decoration: none; /* hide hyperlink */
     /* background-color: #212121; */
+}
+
+/* all titles */
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 5px;
 }
 
 /* header */
@@ -11,6 +18,7 @@ header {
     padding: 20px 10px;
     width: 100%;
     outline: auto;
+    margin-bottom: 15px;
 }
 
 /* header logo */
@@ -24,9 +32,7 @@ header a {
     float: right;
     text-align: center;
     padding: 12px;
-    text-decoration: none; /* hide hyperlink */
     font-size: 18px;
     line-height: 20px;
     border-radius: 4px;
 }
-
