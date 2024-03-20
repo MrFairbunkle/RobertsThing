@@ -1,0 +1,71 @@
+/* all */
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none; /* hide hyperlink */
+    color: white;
+    background-color: #212121;
+}
+
+div {
+    padding: 50px;
+    border: 1px solid red;
+}
+
+/* all titles */
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+/* header */
+.header {
+    overflow: hidden;
+    padding: 20px 10px;
+    width: 100%;
+    outline: none; /* change to auto to see outline */
+    position: fixed;
+    top: 0;
+}
+
+/* header logo */
+.header logo {
+    float: left;
+    padding: 12px;
+}
+
+/* header buttons */
+.header a {
+    float: right;
+    text-align: center;
+    padding: 12px;
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 4px;
+}
+
+/* header button hover*/
+.header a:hover {
+    color: skyblue;
+}
+
+.welcome h1 {
+    margin-top: 100px;
+}
+
+.welcome h3{
+    margin-bottom: 50px;
+}
+
+.about {
+    height: 400px;
+}
+
+.about p {
+    float: left;
+    width: 45%;
+}
